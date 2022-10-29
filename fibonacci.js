@@ -1,3 +1,4 @@
+// by reduce
 function fibo(n){
   var results=[0,1];
   let i=1;
@@ -7,6 +8,7 @@ function fibo(n){
   }
    return results[1];
 }
+//reduce and 2 elements of array
 
 function fibo(n){
   if (n<2) return n;
@@ -21,6 +23,7 @@ function fibo(n){
    })
 }
 
+//optimized recursion
 function fibo(n, results = []) {
     if (n <2) return n;
     if (results[n]) return results[n];
