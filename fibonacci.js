@@ -1,4 +1,4 @@
-// by reduce
+// by reduce and 2 elements of array
 function fibo(n){
   var results=[0,1];
   let i=1;
@@ -8,7 +8,7 @@ function fibo(n){
   }
    return results[1];
 }
-//reduce and 2 elements of array
+//using reduce
 
 function fibo(n){
   if (n<2) return n;
