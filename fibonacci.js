@@ -22,8 +22,8 @@ function fibo(n){
 }
 
 function fibo(n, results = []) {
-    if (fibo <2) return n;
-    if (results[fibo]) return results[fibo];
-    results[fibo] = fibo(fibo - 2, results) + fibo(fibo - 1, results);    
+    if (n <2) return n;
+    if (results[n]) return results[n];
+    results[n] = fibo(n - 2, results) + fibo(n - 1, results);    
 	return results[n];
 }
